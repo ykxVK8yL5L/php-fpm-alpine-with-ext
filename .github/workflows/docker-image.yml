@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Build php-fpm Docker Image
 
 on:
   repository_dispatch:
