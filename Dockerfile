@@ -13,6 +13,7 @@ RUN apk add --no-cache --virtual .build-deps $PHPIZE_DEPS \
     && apk del .build-deps $PHPIZE_DEPS \
     && chmod uga+x /usr/local/bin/install-php-extensions && sync \
     && install-php-extensions bcmath \
+            apcu \
             bz2 \
             calendar \
             curl \
