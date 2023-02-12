@@ -1,4 +1,4 @@
-name: docker-buildx for php 8.2.2
+name: docker-buildx for php 8
 
 on:
   repository_dispatch:
