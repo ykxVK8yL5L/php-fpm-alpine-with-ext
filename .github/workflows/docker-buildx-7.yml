@@ -40,6 +40,6 @@ jobs:
           docker buildx build . \
             --platform linux/386,linux/amd64,linux/arm/v6,linux/arm/v7,linux/arm64/v8 \
             --output "type=image,push=true" \
-            --file Dockerfile \
+            --file Dockerfile7 \
             --tag ykxvk8yl5l/php-fpm-alpine-with-ext:7.4
             
